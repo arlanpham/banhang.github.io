@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/login.css">
+    <link rel="stylesheet" href="./css/asm.css">
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="header">
+            <img src="./hinh/banner1.jpg" height="70px" width="200" alt="">
+            <div class="menu-ngang">
+                <ul>
+                    <li><a href="index.html">TRANG CHỦ</a></li>
+                    <li><a href="">SẢN PHẨM</a></li>
+                    <li><a href="">HỆ THỐNG CỬA HÀNG</a></li>
+                    <li><a href="login.html">TÀI KHOẢN</a></li>
+                </ul>
+            </div>
+            <button id="giohang" onclick="showgiohang()">
+                <i class="fa fa-shopping-basket" aria-hidden="true"></i>
+                   Giỏ Hàng
+            </button>
+            <div id="showgiohang">
+                <table>
+                    <tbody id="danhsachsanpham"></tbody>
+                </table>
+            </div>
+        </div>
+        <div class="login">
+            <div class="login_container">
+                <h1>Đăng Nhập</h1>
+                <form>
+                    <h5>Email</h5>
+                    <input type="text" class="input_login_username" />
+                    <h5>Password</h5>
+                    <input type="password" class="input_login_pass" /><br>
+                    <button type="submit" class="login_signIn">Đăng Nhập</button>
+                </form>
+                <a href="./signup.html" class="login_register">Tạo Tài Khoản Mới</a>
+            </div>
+
+        </div>
+        <hr>
+        <div id="footer">
+            <div class="footer-container">
+                <div class="footer-heading">THÔNG TIN LIÊN HỆ</div>
+                <hr>
+                <ul class="footer-list">
+                    <li>Hotline:0906638119(Cung Thịnh) </li>
+                    <li>Email: thinhpham278@gmail.com</li>
+                    </li>
+                    <li class="form-group">
+                        <label>Họ và tên</label>
+                        <br>
+                        <input type="text" class="form-control" tabindex="1">
+                        <br>
+                        <label>Email</label>
+                        <br>
+                        <input type="email" class="form-control" tabindex="2">
+                        <br>
+                        <label>Ghi chú</label>
+                        <br>
+                        <textarea class="form-control" cols="30px" rows="5px" tabindex="2"></textarea>
+                        <br>
+                        <button class="nut_gui" tabindex="3">Gửi</button>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-container">
+                <div class="footer-heading">ĐỊA CHỈ</div>
+                <hr>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d489.7901839935274!2d106.81443740374158!3d10.863135600000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317527530aab518b%3A0x1a665cd3a19da2df!2zNDdBLzMgTmd1eeG7hW4gSOG7r3UgTmFtLCBMb25nIFRo4bqhbmggTeG7uSwgUXXhuq1uIDksIFRow6BuaCBwaOG7kSBI4buTIENow60gTWluaCwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1680979436142!5m2!1svi!2s"
+                    width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </div>
+    <div class="youtube">
+        <iframe src="https://www.youtube.com/embed/lUkPVPVAHoI?autoplay=1" width="250px" height="600px" title="A YouTube video" frameborder="0" allowfullscreen></iframe>
+    </div>
+    <div class="youtube2">
+        <iframe src="https://www.youtube.com/embed/lUkPVPVAHoI?autoplay=1" width="250px" height="600px" title="A YouTube video" frameborder="0" allowfullscreen></iframe>
+    </div>
+</body>
+
+</html>
+<script src="./code/login.js"></script>

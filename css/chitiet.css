@@ -1,0 +1,75 @@
+#chitiet {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+#chitiet .single-pro-image {
+    width: 40%;
+    margin-right: 50px;
+}
+
+.small-img-group {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#chitiet .single-pro-details {
+    width: 50%;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+#chitiet .single-pro-details h2 {
+    padding: 40px 0 20px 0;
+    color: #fa0b0b;
+}
+
+#chitiet .single-pro-details h4 {
+    font-size: 20px;
+}
+
+#chitiet .single-pro-details span {
+    font-size: 20px;
+}
+
+#chitiet .single-pro-details select {
+    display: block;
+    padding: 2px 4px;
+    margin-bottom: 10px;
+}
+
+#chitiet .single-pro-details input {
+    width: 40px;
+    height: 20px;
+    padding-left: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+#chitiet .single-pro-details input:focus {
+    outline: none;
+}
+
+#chitiet .single-pro-details button {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 20px 20px 20px 20px;
+    outline: none;
+    border: none;
+}
+
+#chitiet .single-pro-details button:hover {
+    opacity: 0.5;
+}
+
+#chitiet .single-pro-details span {
+    line-height: 25px;
+    font-weight: 400;
+}
+
+#MainImg {
+    transition: all 0.5s ease-in;
+}

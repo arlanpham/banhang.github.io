@@ -1,0 +1,269 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#wrapper {
+    width: 990px;
+    height: auto;
+    margin: 0px auto;
+}
+
+body {
+    background-color: pink;
+}
+
+
+/* ================================================================================================================================== */
+
+#header {
+    margin-top: 5px;
+    width: 990px;
+    height: 70px;
+    background: black;
+}
+
+.menu-ngang {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 760px;
+}
+
+.menu-ngang ul {
+    display: flex;
+    list-style: none;
+    margin-top: -50px;
+}
+
+.menu-ngang ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 0 15px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.menu-ngang ul li a:hover {
+    color: red;
+    font-size: 16px;
+}
+
+#giohang {
+    margin-left: 850px;
+    margin-top: -60px;
+    display: flex;
+    height: 39px;
+    width: 120px;
+    align-items: center;
+    border-radius: 0 0 5px red;
+    background-color: pink;
+    border: 2px inset red(121, 226, 248);
+    border-radius: 20px 20px 20px 20px;
+    padding: 20px;
+}
+
+#giohang:hover {
+    border-color: #fcfcfc;
+    color: #ef1111;
+    background-color: #a4e2ff;
+}
+
+#showgiohang {
+    /* height: 100px; */
+    width: 520px;
+    background-color: rgb(218, 217, 217);
+    box-shadow: 0 0 5px rgb(255, 255, 255);
+    position: absolute;
+    top: 74px;
+    right: 210px;
+}
+
+#giohang11 {
+    display: flex;
+}
+
+.ctgh {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.ctgh>input {
+    width: 30px;
+    height: 20px;
+}
+
+.ctgh>button {
+    margin-left: 50px;
+    width: 20px;
+    background-color: rgb(218, 217, 217);
+    border-radius: 50px 50px 50px 50px;
+    box-shadow: none;
+}
+
+.ctgh>button:hover {
+    color: red;
+}
+
+#btn-giohang {
+    margin-left: 286px;
+}
+
+#btn-giohang>a>button {
+    margin-top: 10px;
+    border-radius: 20px 20px 20px 20px;
+    width: 90px;
+    height: 30px;
+    background-color: rgb(12, 17, 17);
+    color: white;
+}
+
+
+/* ================================================================================================================================== */
+
+#nav {
+    height: 430px;
+    width: 990px;
+    margin-top: 18px;
+}
+
+#nav #chuyendong {
+    Transition: all 0.3s ease-in
+}
+
+
+/* ================================================================================================================================== */
+
+#body {
+    width: 990px;
+    height: auto;
+}
+
+
+/* ================================================================================================================================== */
+
+#sidebar {
+    float: left;
+    width: 200px;
+    height: 400px;
+    background-color: orange;
+}
+
+
+/* ================================================================================================================================== */
+
+#main-content {
+    float: left;
+    width: 990px;
+    height: 696px;
+    background-color: #d1d1cf;
+    border-radius: 15px 15px 15px 15px;
+}
+
+.sanpham {
+    margin-top: 12px;
+    margin-left: 14px;
+    height: 330px;
+    width: 230px;
+    float: left;
+    text-align: center;
+    border-radius: 10px 10px 10px 10px;
+    background-color: white;
+}
+
+.sanpham:hover {
+    box-shadow: 1px 2px 5px rgb(112, 104, 89);
+}
+
+.sanpham>h4 {
+    margin-top: 17px;
+    font-family: sans-serif;
+}
+
+.sanpham>p {
+    color: red;
+}
+
+.sanpham>div>img {
+    margin-top: 5px;
+    height: 200px;
+    width: 200px;
+}
+
+.sanpham>input {
+    width: 40px;
+}
+
+.sanpham>button {
+    margin-top: 10px;
+    border-radius: 20px 20px 20px 20px;
+    width: 90px;
+    height: 30px;
+}
+
+.muasp {
+    background-color: pink;
+    color: red;
+}
+
+.xemsp {
+    background-color: rgba(255, 255, 255, 0.812);
+}
+
+.sanpham>button:hover {
+    opacity: 0.5;
+}
+
+#danhsachsanpham {
+    text-align: center;
+    padding-bottom: 1px;
+}
+
+#danhsachsanpham>tr>td>input {
+    width: 30px;
+}
+
+
+/* ================================================================================================================================== */
+
+#footer {
+    height: 300px;
+    width: 990px;
+    display: flex;
+    padding: 30px 0px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    background-color: pink;
+    color: black;
+    font-size: 15px;
+    margin: 0 auto;
+}
+
+.footer-list {
+    list-style: none;
+}
+
+.footer-container {
+    max-width: 500px;
+    margin: auto;
+    height: 100%;
+    line-height: 25px;
+}
+
+.footer-heading {
+    font-size: 30px;
+}
+
+.youtube {
+    position: fixed;
+    left: 0;
+    bottom: 10%;
+}
+
+.youtube2 {
+    position: fixed;
+    right: 0;
+    bottom: 10%;
+}

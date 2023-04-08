@@ -1,0 +1,17 @@
+.container {
+    width: 100%;
+    margin: 0 auto;
+    background-color: pink;
+}
+
+header {
+    height: 300px;
+    width: 100%;
+    background-color: aqua;
+    position: relative;
+}
+
+header>div>img {
+    height: 300px;
+    width: 100%;
+}
